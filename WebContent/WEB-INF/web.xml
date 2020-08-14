@@ -1,0 +1,11 @@
+<web-app>
+	<servlet>
+		<servlet-name>controller</servlet-name>
+		<servlet-class>com.ss.controller.NitControllerServlet</servlet-class>
+		<load-on-startup>2</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>controller</servlet-name>
+		<url-pattern>*.do</url-pattern>
+	</servlet-mapping>
+</web-app>
